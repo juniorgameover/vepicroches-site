@@ -1,38 +1,116 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @font-face {
 	font-family: Fonte-menu;
 	src: url("fontes/Staatliches");
 }
 
+/*banner*/
 hgroup {
-	display: block;
-	margin-left: auto;
-	margin-right:auto;
 	background: url(imagens/fundo-teste1.jpg);
 	background-size: 100%;
 
 }
 
+
 .imagem-logo {
-	height: 220px;
-	max-width:30%;	
+	height: 20vh;
 }
 
+
+/*Layout*/
+
+
 .menu {
-	margin:0;
-	padding:0;
-	background-color: #F4A460;
+	margin:0 auto;
 	color: white;
+	text-align:center;
+	height: 100%;
 	box-shadow: 0px 10px 15px #D2B48C;
+	background-color: #F4A460;
+	width:100%;
+	line-height: 3em;
 	
 }
 
 .itens-menu {
 	display: inline-block;
-	font-family: 'Staatliches', cursive;
-	padding-left: 70px;
-	font-size:20px;
-	margin-top: 0px;
-	line-height: 100%;
+	padding: 0 30px;
+	font-size: 2em	;
+	transition: 0.5s;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+
 }
+
+.itens-menu:hover {
+	background: #800000;
+}
+
+
+
+
+
+.lista-frase {
+	display: inline-block;
+	vertical-align: top;
+	list-style-type: none;
+	font-size: 2em;
+
+}
+
+
+.lista-frase li{
+	color: #8B4513;
+	line-height: 1em;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bolder;
+	
+}
+
+
+
+/*Apresentação*/
+
+
+#frase-efeito{
+	background: linear-gradient(to bottom, #F5DEB3	, white);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: row wrap;
+	background-color: #808080;
+
+}	
+
+.lista-frase{
+	
+}
+
+
+.lista-frase p {
+	line-height: 2em;
+}
+
+#container1{
+	text-align: right;
+	margin: 5vh;
+}
+
+
+#container2 {
+	margin: 5vh;
+	max-width: 500px;
+	min-width: 400px;
+
+}
+
+.fazendo-croche {
+	max-width: 100%;
+	border: 10px dashed #D2B48C;
+	border-radius: 5px
+	box-shadow: ;
+
+}
+
