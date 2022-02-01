@@ -8,7 +8,7 @@
 
 /*banner*/
 hgroup {
-	background: url(imagens/fundo-teste1.jpg);
+	background: url(img/fundo-teste1.jpg);
 	background-size: 100%;
 
 }
@@ -49,9 +49,6 @@ hgroup {
 }
 
 
-
-
-
 .lista-frase {
 	display: inline-block;
 	vertical-align: top;
@@ -69,29 +66,36 @@ hgroup {
 	
 }
 
-
+/*container pai das divs de todas as sessoes*/
+.container-sessoes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	/*border: 3px solid red;*/
+	height: 100vh;
+	/*background-color:silver;*/
+}
 
 /*Apresentação*/
 
 
-#frase-efeito{
+
+#frase-efeito {
 	background: linear-gradient(to bottom, #F5DEB3	, white);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-flow: row wrap;
-	background-color: #808080;
-
+	/*border: 3px solid red;*/
 }	
-
-.lista-frase{
-	
-}
-
 
 .lista-frase p {
 	line-height: 2em;
 }
+
 
 #container1{
 	text-align: right;
@@ -110,7 +114,68 @@ hgroup {
 	max-width: 100%;
 	border: 10px dashed #D2B48C;
 	border-radius: 5px
-	box-shadow: ;
+	
+}
+
+#titulo-sessao {
+	color: #8B4513;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 1%;
+}
+
+#moda-praia {
+	background:url("img/background-moda-praia.jpg");
+	background-size: cover;
+}
+
+#botao-sobreimg{
+	height: 100%;
+}
+
+#container-mulher{
+	height:80%;
+	position:relative;
+	
+}
+
+#capa-mulher{
+	height:100%;
 
 }
+
+#capa-mulher:hover {
+	box-shadow: 0px 0px 20px #CCCCCC;
+	opacity: 0.8;
+	transition:0.5s;
+
+}
+
+
+.botao-mais:hover{
+	bottom:17%;
+	box-shadow:#F4A460 0px 10px 20px;
+	transition:0.1s;
+	transform:scale(1.1);
+}
+
+
+
+.botao-mais {
+	position:relative;
+	bottom:15%;
+	left:75%;
+	width:10vw;
+	padding:10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	background-color:#800000;
+	
+}
+
 
