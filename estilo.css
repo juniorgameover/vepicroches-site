@@ -1,0 +1,317 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*banner*/
+hgroup {
+	background: url(img/fundo-teste1.jpg);
+	background-size: 100%;
+
+}
+
+
+.imagem-logo {
+	height: 20vh;
+}
+
+
+/*Layout*/
+
+.menu {
+	margin:0 auto;
+	color: white;
+	text-align:center;
+	height: 100%;
+	box-shadow: 0px 10px 15px #D2B48C;
+	background-color:#8B4513;
+	width:100%;
+	line-height: 3em;
+	
+}
+
+.itens-menu {
+	display: inline-block;
+	padding: 0 30px;
+	font-size: 1.5em;
+	transition: 0.5s;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+
+}
+
+h2 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+.itens-menu:hover {
+	background: #800000;
+}
+
+
+.lista-frase {
+	font-size: 1.5em;
+	display: inline-block;
+	list-style-type: none;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+
+.lista-frase li{
+	color: #8B4513;
+	line-height: 1em;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bolder;
+	
+}
+
+/*container pai das divs de todas as sessoes*/
+
+
+.container-sessoes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	/*border: 3px solid red;*/
+	height: 100vh;
+	/*background-color:silver;*/
+}
+
+/*Apresentação*/
+
+
+
+#frase-efeito {
+	background: linear-gradient(to bottom, #F5DEB3	, white);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: row wrap;
+	/*border: 3px solid red;*/
+}	
+
+.lista-frase p {
+	line-height: 2em;
+}
+
+
+#container1{
+	text-align: right;
+	margin: 5vh;
+}
+
+
+#container2 {
+	margin: 5vh;
+	max-width: 500px;
+	min-width: 400px;
+
+}
+
+.fazendo-croche {
+	max-width: 100%;
+	border: 10px dashed #D2B48C;
+	border-radius: 5px
+	
+}
+
+#titulo-sessao {
+	background: #8B4513;
+	color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Rubik',sans-serif;
+    line-height: 1.5em;
+    font-size: 2em;
+
+}
+/*MODA PRAIA*/
+
+#moda-praia {
+	height: 100vh;
+	background:url("img/background-moda-praia.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+#container-moda-praia {
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#botao-mulher {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+	width: 70%;
+	background: url("img/MaioBrancoM1.jpg");
+	background-size: cover; /*lembrar de colocar pra ser rotacionado quando mudar pra mobile portrait*/
+	box-shadow: 0px 0px 20px black;
+}
+
+#botao-mulher:hover, #botao-mulher a:hover {
+	transition:0.1s;
+	transform:scale(1.1);
+}
+
+#botao-mulher a{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	background-color:#800000;
+	font-family: 'Rubik',sans-serif;
+	line-height: 2em;
+	padding: 1%;
+	border-radius: 5px;
+}
+
+
+/*SESSÃO CASA*/
+
+#casa{
+	margin-top: 5vh;
+	background: url(img/ToallaGrandeQuadradaBrancaM1.jpg);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	height:  100vh;
+}
+
+.imagens-casa {
+	display:  flex;
+	justify-content: space-evenly;
+
+}
+
+.div-img-casa {
+	width: 45%;
+}
+.img-casa {
+	width: 100%;
+	box-shadow: 0px 0px 20px black;
+}
+
+.botao-casa {
+	width: 50%;
+	text-align: center;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 10px;
+	padding:10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+	background-color:#800000;
+	font-family: 'Rubik',sans-serif;
+}
+
+.botao-casa:hover {
+	box-shadow: 0px 0px 10px black;
+	transition:0.1s;
+	transform:scale(1.2);
+}
+
+.img-casa:hover {
+	transition:0.1s;
+	transform:scale(1.1);
+}
+
+
+/*MODA INFANTIL*/
+
+#moda-infantil{
+	background: url(img/ColchaCamaSolteiroInfantil.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 5vh;
+	height: 100vh;
+	
+}
+
+.imagens-infantil {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 100%;
+
+}
+
+.imagem-infantil {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0px 0px 20px black;
+	width: 25vw;
+	
+	
+}
+
+.imagem-infantil img {
+	border: 10px dashed #D2B48C;
+	width: 95%;
+
+}
+
+.botao-infantil{
+	display: flex;
+	color: white;
+	font-size: 1.5em;
+	box-shadow: 0px 0px 20px black;
+	height: 25vh;
+	width: 22vw;
+	justify-content: center;
+	align-items: center;
+	background-color:#800000;
+	font-weight: bold;
+	font-family: 'Rubik',sans-serif;
+}
+
+.botao-infantil a {
+
+}
+
+.imagem-infantil img:hover, .botao-infantil:hover {
+	transition:0.1s;
+	transform:scale(1.1);
+}
+
+/*BOLSAS*/
+
+#section-bolsas {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10vh;
+	height: 100vh;
+	border: 1px solid red;
+}
+.bolsas-lateral {
+	display: flex;
+	flex-direction:  column;
+	width: 50%;
+	border:  1px solid red;
+}
+.container-imagem-bolsa {
+	width: 35%;
+	border: 3px solid blue;
+}
+
+.container-imagem-bolsa img {
+	width: 100%;
+}
