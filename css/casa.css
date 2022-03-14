@@ -1,0 +1,19 @@
+.casa {
+	
+}
+
+.casa__imagem {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.casa__imagem::first-child {
+	margin-bottom: 1rem;
+}
+
+.casa__imagem-tamanho {
+	width: 90vw;
+	padding-top: .2rem;
+
+}

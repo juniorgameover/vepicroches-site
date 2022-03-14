@@ -1,0 +1,23 @@
+.apresentacao {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.apresentacao__imagem {
+	width: 90%;
+	padding: 1rem 1rem;
+}
+
+.apresentacao__lista {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1rem;
+	line-height: 2rem;
+	width: 90%;	
+}
+
+.apresentacao__lista-frase p::before {
+	content: "\2705 ";
+	font-size: 0.8rem;
+}
