@@ -1,0 +1,34 @@
+.grid-bolsas {
+    display: grid;
+    grid-template-columns: 62% auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "principal lateral1"
+    "principal lateral2"
+    "principal lateral3";
+    justify-items: center;
+    align-items: center;
+
+}
+
+.bolsa-principal {
+    width: 100%;
+    grid-area: principal;
+    
+}
+
+.bolsa-lateral1{
+    grid-area: lateral1;
+    width: 100%;
+}
+
+.bolsa-lateral2{
+    grid-area: lateral2;
+    width: 100%;
+}
+
+.bolsa-lateral3{
+    grid-area: lateral3;
+    width: 100%;
+   
+}

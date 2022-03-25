@@ -292,26 +292,3 @@ h2 a {
 	transform:scale(1.1);
 }
 
-/*BOLSAS*/
-
-#section-bolsas {
-	display: flex;
-	flex-direction: column;
-	margin-top: 10vh;
-	height: 100vh;
-	border: 1px solid red;
-}
-.bolsas-lateral {
-	display: flex;
-	flex-direction:  column;
-	width: 50%;
-	border:  1px solid red;
-}
-.container-imagem-bolsa {
-	width: 35%;
-	border: 3px solid blue;
-}
-
-.container-imagem-bolsa img {
-	width: 100%;
-}
