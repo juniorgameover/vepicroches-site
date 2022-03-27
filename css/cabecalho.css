@@ -4,16 +4,18 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-content: flex-end;
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 
 }
 
 .cabecalho__logo {
 	border-radius: 10px;
 	background-image: radial-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.1));
-	margin-top: 5%;
-	width: 60%;
+	width: 65%;
+	padding: 5% 2%;
+	
 
 }
 
@@ -22,22 +24,30 @@
 	box-shadow: 0 1px 20px rgb(117, 112, 112);
 	color: #B03060;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	font-family: 'Mukta', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: 500;
 	flex-wrap: wrap;
 	min-height: 50px;
-	line-height: 1.5em;
-	padding: .3rem 1rem;
+	
+	padding: 0 1rem;
+	align-self: baseline;
 	
 }
-
+.menu__itens {
+	display: flex;
+	align-items: center;
+}
 .menu__itens-link {
 	border-bottom: inset 5px solid #B03060;
 	text-decoration: none;
 	color: inherit;
-	margin: 0 5px;
+	margin: 0 10px;
 	
+}
+
+.menu__itens-link::before {
+	content: ""
 }
 

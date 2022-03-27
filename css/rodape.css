@@ -1,0 +1,13 @@
+#rodape {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background:linear-gradient(to bottom, #F5DEB3 , white);
+	display: flex;
+	height: 20vh;
+	width: 100%;
+}
+
+.rodape__logo {
+	height: 40%;
+}

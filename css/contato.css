@@ -1,0 +1,38 @@
+.contato-sessao {
+	background: url(../img/compras.jpg) no-repeat;
+    background-size:cover;
+    background-position:0px -30px;
+    background-size: auto calc(30vh + 50px);
+	display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+	height: 30vh;
+    margin-bottom: 0px;
+}
+
+.contato__botao {
+
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background:  linear-gradient(rgba(0,100,0,.5),green,rgba(0,100,0,.5));
+	height: 30%;
+	width: 70%;
+    margin-bottom: 20%;
+}
+
+.contato__link {
+	font-size: 2rem;
+	color: white;
+	text-decoration: none;
+	font-family: 'Rubik',sans-serif;
+	font-weight: bold;
+
+}
+
+.botao__imagem {
+	width: 10%;
+	height: 50%;
+	
+}

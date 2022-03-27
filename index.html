@@ -11,17 +11,19 @@
 	<link rel="stylesheet" type="text/css" href="css/casa.css">
 	<link rel="stylesheet" type="text/css" href="css/infantil.css">
 	<link rel="stylesheet" type="text/css" href="css/bolsas.css">
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
+	<link rel="stylesheet" type="text/css" href="css/rodape.css">
 
 
 	<title>Vepicrochês</title>
 </head>
 
 <body>
-
+	
 	 <!-- Cabeçalho -->
 	<header>
-		<hgroup class="cabecalho">
-			<img class="cabecalho__logo"  src="img/logo-sem-fundo.png">
+		<hgroup id="cabecalho" class="cabecalho">
+			<img class="cabecalho__logo"  src="img/logo5.png">
 			
 			<nav>
 				<ul class="menu">
@@ -32,22 +34,24 @@
 						<h2><a href="#casa" class="menu__itens-link">Casa </a></h2>
 					</li>
 					<li class="menu__itens">
-						<h2><a href="#moda-infantil" class="menu__itens-link">Infantil </a></h2>
+						<h2><a href="#infantil" class="menu__itens-link">Infantil </a></h2>
 					</li>
 					<li class="menu__itens">
-						<h2><a href="#section-bolsas" class="menu__itens-link">Bolsas</a></h2>
+						<h2><a href="#bolsas" class="menu__itens-link">Bolsas</a></h2>
 					</li>
 					<li class="menu__itens">
 						<h2><a class="menu__itens-link">Variados</a></h2>
 					</li>
+					
 					<li class="menu__itens">
-						<h2><a class="menu__itens-link">Contato</a></h2>
+						<h2><a href="#contato" class="menu__itens-link">Contato</a></h2>
 					</li>
 				</ul>
 			</nav>
 		</hgroup>
-		
+	</header>	
 		<main>
+			
 			<!-- Apresentação -->
 			<section class="apresentacao" >
 						
@@ -70,7 +74,7 @@
 					</section>
 
 			<!-- Sessão Moda praia -->
-			<section class="praia container-sessao" >
+			<section id="moda-praia" class="praia container-sessao" >
 				<h2 class="praia__titulo titulo-sessao">Moda Praia</h1>
 				
 					<img class="praia__imagem" alt="Modelo de maiô em crochê cor branco" src="img/MaioBrancoM1.jpg" >
@@ -79,7 +83,7 @@
 			</section>
 
 			<!-- Sessão Casa -->
-			<section class="casa container-sessao">
+			<section id="casa" class="casa container-sessao">
 				<h2 class="casa__titulo titulo-sessao">Casa</h2>
 				<div class="casa__imagem">
 					<img class="casa__imagem-tamanho"src="img/PortaObjetosM2.jpg" alt="Figura do porta objetos">
@@ -90,7 +94,7 @@
 			</section>
 
 			<!-- Sessão moda infantil -->
-			<section class="container-sessao">
+			<section id="infantil" class="container-sessao">
 				<h1 class="titulo-sessao">Infantil</h1>
 				
 					<div class="imagens-infantil">
@@ -106,7 +110,7 @@
 			</section>
 
 			<!-- Sessão Bolsas -->
-			<section class="container-sessao">
+			<section id="bolsas" class="container-sessao">
 				<h1 class="titulo-sessao">Bolsas</h1>
 				
 				<div class="grid-bolsas">
@@ -128,23 +132,24 @@
 			</section>
 
 			<!-- Sessão Contato -->
-			<section id="contato">
+			<section id="contato" class="container-sessao contato-sessao">
+				<h1 class="titulo-sessao titulo-sessao--contato">Contato</h1>
 				<div class="contato__botao">
 					<div class="botao__texto">
-						<a href="https://wa.me/55859" class="contato__link">Faça AQUI seu Pedido!</a>
+						<a href="https://wa.me/55859" class="contato__link">Peça aqui!</a>
 					</div>
 					<div class="botao__imagem">
-						<img style="height:100%;" src="img/whatsapp-logo.png">
+						<img style="height:100%;" src="./img/whatsapp-logo-1.png">
 					</div>
 				</div>
 			</section>
 		</main>
-
+		
 		<!-- Rodapé -->
 		<footer id="rodape">
-			<img class="rodape__logo" src="img/logo-sem-fundo.png">
+			<img class="rodape__logo" src="./img/logo5.png">
 		</footer>
-	</header>
+	
 
 </body>
 
