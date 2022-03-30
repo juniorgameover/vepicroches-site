@@ -6,36 +6,61 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-content: flex-end;
-	width: 100%;
-	max-height: 25vh;
+	max-height: 200px;
 
 }
 
 .cabecalho__logo {
-	border-radius: 10px;
-	background-image: radial-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.1));
-	width: 65%;
-	padding: 5% 2% 0 2%;
-	
+	width: min-content;
+	height:100px;
+	padding: 1% 1%;
 
 }
 
-.menu {
-	background-color:#FAEBD7 ;
+.container-navegacao{
+	background-color:#FAEBD7;
+	padding: 0 1rem;
 	box-shadow: 0 1px 20px rgb(117, 112, 112);
+	display: flex;
+
+}
+.container-menu{
+	display: flex;
+}
+
+.expande-menu{
+	border: none;
+	background-color: initial;
+	
+}
+
+.sanduiche {
+	width: 25px;
+	height: 3px;
+	background-color: #B03060;
+	margin: 6px 0;
+  }
+
+.menu {
+	display: none;
+}
+
+.menu-ativo{
+	background-color:#FAEBD7 ;
+	/*box-shadow: 0 1px 20px rgb(117, 112, 112);*/
 	color: #B03060;
 	display: flex;
-	justify-content: flex-start;
 	font-family: 'Mukta', sans-serif;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: 500;
 	flex-wrap: wrap;
 	min-height: 50px;
 	box-sizing: border-box;
-	padding: 0 1rem;
+	padding-left: 1rem;
 	align-self: baseline;
 	
 }
+
 .menu__itens {
 	display: flex;
 	align-items: center;
@@ -44,7 +69,7 @@
 	border-bottom: inset 5px solid #B03060;
 	text-decoration: none;
 	color: inherit;
-	margin: 0 10px;
+	margin-right: 10px;
 	
 }
 
