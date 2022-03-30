@@ -21,3 +21,44 @@
 	content: "\2705 ";
 	font-size: 0.8rem;
 }
+
+
+@media screen and (min-width: 768px) {
+	.apresentacao {
+		height: 350px;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-bottom: 0;
+		
+	}
+	.apresentacao__imagem {
+		height: 250px;
+		width: auto;
+		
+	}
+
+	.apresentacao__lista {
+		width: auto;
+	}
+}
+
+
+@media screen and (min-width: 1080px) {
+	
+	.apresentacao__imagem {
+		height: 90%;
+		width: auto;
+		
+	}
+
+	.apresentacao__lista {
+		width: auto;
+		font-size: 1.5rem;
+	}
+
+	.apresentacao__lista-frase p::before {
+		content: "\2705 ";
+		font-size: 1rem;
+	}
+}
+
