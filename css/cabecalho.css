@@ -1,12 +1,18 @@
-.cabecalho {
-	background: url(../img/fundo-teste1.jpg);
+.container__logo-botao {
+	background-image: url("../img/fundo-teste1.jpg");
 	background-size: cover;
+}
+
+
+.cabecalho {
+	background-size: cover;
+	background-position: fixed;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-content: flex-end;
-	max-height: 200px;
+	max-height: 500px;
 
 }
 
@@ -21,7 +27,6 @@
 	background-color:#FAEBD7;
 	padding: 0 1rem;
 	box-shadow: 0 1px 20px rgb(117, 112, 112);
-	display: flex;
 
 }
 .container-menu{
@@ -31,12 +36,13 @@
 .expande-menu{
 	border: none;
 	background-color: initial;
+	margin: 5px 10px;
 	
 }
 
 .sanduiche {
 	width: 25px;
-	height: 3px;
+	height: 4px;
 	background-color: #B03060;
 	margin: 6px 0;
   }
@@ -50,6 +56,7 @@
 	/*box-shadow: 0 1px 20px rgb(117, 112, 112);*/
 	color: #B03060;
 	display: flex;
+	flex-direction: column;
 	font-family: 'Mukta', sans-serif;
 	font-size: 1.1em;
 	font-weight: 500;
@@ -62,14 +69,16 @@
 }
 
 .menu__itens {
-	display: flex;
-	align-items: center;
+	border-bottom: 2px solid #ffc0d7;
+	padding: 10px;
+	
 }
+
 .menu__itens-link {
 	border-bottom: inset 5px solid #B03060;
 	text-decoration: none;
 	color: inherit;
-	margin-right: 10px;
+	
 	
 }
 
