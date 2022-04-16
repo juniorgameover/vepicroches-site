@@ -3,20 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 
 body{
+	/*background-image: url("../img-banco/ToalhaGrandeRedondaBrancaM3.jpg");*/
+	background-attachment: fixed;
 	
-	background-image: url("../img/background3.png");
-	background-attachment: fixed ;
 
 }
-
-
 .container-sessao {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 	box-sizing: border-box;
+
 
 }
 
@@ -34,16 +33,18 @@ body{
 }
 
 .botao-sessao {
-
 	border: 2px solid #B03060;
 	border-color: #B03060;
 	border-radius: 5px;
 	border-style: solid;
+	color:  #B03060;
 	font-family: 'Mukta', sans-serif;
 	font-size: 1em;
 	margin-top: 2rem;
 	width: 60%;
 	padding: 1rem 2rem;
+	
+
 }
 
 .itens-menu:hover {
@@ -92,5 +93,13 @@ body{
 	.botao-sessao:hover{
 		transform: scale(1.2);
 		text-shadow: white;
+	}
+
+	.titulo-sessao {
+		
+		font-size: 2rem;
+		line-height: 5rem;
+		
+		
 	}
 }

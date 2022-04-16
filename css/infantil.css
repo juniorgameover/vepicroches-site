@@ -1,3 +1,9 @@
+#infantil {
+	background-image: url("../img/ColchaCamaSolteiroInfantil.jpg");
+	background-attachment: fixed;
+	background-size:cover ;
+}
+
 .imagens-infantil {
     width: 90vw;
     display: flex;

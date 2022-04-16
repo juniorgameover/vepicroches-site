@@ -3,27 +3,16 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-
 }
 
-.praia__titulo {
-	background-color:#FAEBD7 ;
-	color: #B03060;
-	display: block;
-	font-family: 'Mukta', sans-serif;
-	font-size: 1.6rem;
-	font-weight: 500;
-	line-height: 1.5em;
-	text-align: center;
-	width: 100%;
-	
-
+#moda-praia {
+	background-image: url("../img/background-moda-praia.jpg");
+	background-attachment: fixed;
+	background-size:cover ;
 }
 
 .praia__imagem {
 	width: 100vw;
-	
-
 }
 
 @media screen and (min-width: 768px) {

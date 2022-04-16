@@ -1,4 +1,10 @@
 
+.casa {
+	background-image: url("../img/ToallaGrandeQuadradaBrancaM1.jpg");
+	background-attachment: fixed;
+	background-size:cover ;
+}
+
 .casa__imagem {
 	display: flex;
 	flex-direction: column;
