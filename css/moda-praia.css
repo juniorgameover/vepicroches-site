@@ -25,3 +25,13 @@
 	
 
 }
+
+@media screen and (min-width: 768px) {
+	
+.praia__imagem {
+	width: 50vw;
+	
+
+}
+	
+}

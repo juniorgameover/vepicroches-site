@@ -35,9 +35,10 @@
 
 .expande-menu{
 	border: none;
-	background-color: initial;
-	margin: 5px 10px;
-	
+	box-sizing: border-box;
+	background-color: #FAEBD7;	;
+	padding: 5px 10px;
+
 }
 
 .sanduiche {
@@ -72,13 +73,14 @@
 	border-bottom: 2px solid #ffc0d7;
 	padding: 10px;
 	
+	
 }
 
 .menu__itens-link {
-	border-bottom: inset 5px solid #B03060;
 	text-decoration: none;
 	color: inherit;
-	
+	font-family: 'Rubik', sans-serif;
+	font-weight: 550;
 	
 }
 
@@ -88,12 +90,13 @@
 
 @media screen and (min-width: 768px) {
 	.cabecalho{
+		background-image: url("../img/fundo-teste1.jpg");
 		height:200px;
 		background-position-y: center;
 	}
 
 	.cabecalho__logo{
-		max-height: 50%;
+		max-height: 70%;
 		width: fit-content;
 		margin-top: 1%;
 		padding: 1% 1% ;
@@ -101,9 +104,32 @@
 	
 	}
 
+	.container__logo-botao {
+		background: none;
+	}
+
 	.menu {
+		display: flex;
 		justify-content: flex-end;
 
 	}
+
+	.menu__itens {
+		font-size: 1.5rem;
+	
+	}
+
+	.menu__itens-link:hover {
+		border-bottom: 3px solid #B03060;
+		text-shadow: white;
+		
+	}
+
+	.expande-menu {
+		display: none;
+	}
+
+	
+	
 }
 

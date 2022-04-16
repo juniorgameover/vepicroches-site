@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
 
 body{
-	background-color: snow;
-	box-sizing: border-box;
+	
+	background-image: url("../img/background3.png");
+	background-attachment: fixed ;
 
 }
 
@@ -26,6 +27,7 @@ body{
 	font-family: 'Mukta', sans-serif;
 	font-size: 1.6rem;
 	font-weight: 500;
+	margin-bottom: 10px;
 	line-height: 1.5em;
 	text-align: center;
 	width: 100%;
@@ -79,4 +81,16 @@ body{
 	/*border: 3px solid red;*/
 	height: 100vh;
 	/*background-color:silver;*/
+}
+
+@media screen and (min-width: 768px){
+	.botao-sessao {
+		width: 40vw;
+		font-size: 1.3em;
+	}
+
+	.botao-sessao:hover{
+		transform: scale(1.2);
+		text-shadow: white;
+	}
 }
