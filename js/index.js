@@ -11,7 +11,6 @@ botaoMenu.addEventListener('click' , () => {
 
 window.addEventListener('resize' , () => {
     let larguraDaTela = window.innerWidth;
-    console.log(larguraDaTela);
     if(larguraDaTela > 768){
        menuNavegacao.classList.remove('menu-ativo');
     }

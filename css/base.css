@@ -21,7 +21,7 @@ body{
 
 .titulo-sessao {
 	background-color:#FAEBD7 ;
-	color: #B03060;
+	color: rgb(176, 48, 95);
 	display: block;
 	font-family: 'Mukta', sans-serif;
 	font-size: 1.6rem;
@@ -33,17 +33,15 @@ body{
 }
 
 .botao-sessao {
-	border: 2px solid #B03060;
-	border-color: #B03060;
-	border-radius: 5px;
-	border-style: solid;
-	color:  #B03060;
+	border-radius: 10px;
+	background-color:rgb(160, 43, 86);
+	color:  #ffffff;
 	font-family: 'Mukta', sans-serif;
-	font-size: 1em;
+	font-size: 1.4em;
 	margin-top: 2rem;
 	width: 60%;
 	padding: 1rem 2rem;
-	
+	box-shadow: 0px 1px 10px rgb(52, 51, 51);
 
 }
 
