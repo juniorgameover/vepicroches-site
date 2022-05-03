@@ -1,8 +1,8 @@
 .contato-sessao {
 	background: url(../img/compras.jpg) no-repeat;
     background-size:cover;
-    background-position:0px -30px;
-    background-size: auto calc(30vh + 50px);
+  /*  background-position:0px -30px;
+    background-size: auto calc(30vh + 50px);*/
 	display: flex;
     flex-direction: column;
 	justify-content: space-between;
@@ -10,6 +10,47 @@
     margin-bottom: 0px;
 }
 
+.form-novidades {
+	
+	text-align: left;
+	width: 80%;
+}
+
+.titulo-form {
+	
+	color:#af6129;
+	font-weight: 600;
+	font-family: 'Rubik', sans-serif;
+	margin: 20px 0;
+	font-size: 1.5rem;
+}
+.label-input {
+	color:#af6129;
+	margin: 10px 10px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.3rem;
+}
+
+.campo-input {
+	border: none;
+	padding: 5px;
+	margin: 10px 10px;
+	height: 30px;
+	width: 80%;
+
+}
+
+.enviar-formulario {
+	background-color: #FAEBD7;
+	border: none;
+	color:#af6129;;
+	height: 40px;
+	min-width: 150px;
+	max-width: 200px;
+	margin: 10px;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
 .contato__botao {
 
 	border-radius: 5px;
@@ -23,7 +64,7 @@
 }
 
 .contato__link {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: white;
 	text-decoration: none;
 	font-family: 'Rubik',sans-serif;
@@ -35,4 +76,25 @@
 	width: 10%;
 	height: 50%;
 	
+}
+
+@media screen and (min-width: 768px) {
+	.contato-sessao {
+		height: 100vh;
+	}
+	
+	.campo-input {
+		width:50%
+	}
+
+	.contato__botao {
+		width: 25%;
+	}
+	.container-formulario {
+		text-align: center;
+	}
+	.titulo-form{
+		display: inline-block;
+		width: 50%;
+	}
 }

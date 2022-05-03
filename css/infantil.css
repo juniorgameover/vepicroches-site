@@ -1,7 +1,7 @@
 #infantil {
 	background-image: url("../img/ColchaCamaSolteiroInfantil.jpg");
 	background-attachment: fixed;
-	background-size:cover ;
+	background-size: contain;
 }
 
 .imagens-infantil {
